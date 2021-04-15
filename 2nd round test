@@ -5,8 +5,7 @@ class Rextester
 {
   public static void main(String args[])
   {
-    Scanner sc=new 
-  Scanner(System.in);
+    Scanner sc=newScanner(System.in);
   String s=sc.next();
   int n=s.length();
   int mid=n/2;
